@@ -1,7 +1,6 @@
 # UnetFormer-a-simple-classifier
 
-
-unetformer.png
+https://github.com/Lioely/UnetFormer-a-simple-classifier/blob/main/unetformer.png
 
 首先下载数据集：
 Friut100，Flower
