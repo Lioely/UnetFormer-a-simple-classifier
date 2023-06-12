@@ -1,5 +1,5 @@
 from torch.utils.data import Dataset, DataLoader
-from make_data_loader import make_annotation,MyDataset
+from data.make_data_loader import make_annotation,MyDataset
 import torch
 import math
 import torch.nn as nn
