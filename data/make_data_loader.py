@@ -36,7 +36,7 @@ def make_annotation(split, datasets_name):
         df = pd.DataFrame()
         path = []
         label = []
-        annotation_path = os.path.join(root_dir, "Fruit100")
+        annotation_path = os.path.join(root_dir, "Fruit360")
         datasets_path = os.path.join(annotation_path, split)
         fruit_class = list(set(cla.split()[0] for cla in os.listdir(datasets_path)
                                if os.path.isdir(os.path.join(datasets_path, cla))))
@@ -78,8 +78,8 @@ def make_annotation(split, datasets_name):
 
 
 """
-make_annotation("train", "Fruit100")
-make_annotation("test", "Fruit100")
+make_annotation("train", "Fruit360")
+make_annotation("test", "Fruit360")
 make_annotation("train", "flower_photos")
 make_annotation("test", "flower_photos")
 """
