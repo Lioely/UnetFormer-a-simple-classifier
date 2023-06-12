@@ -7,7 +7,7 @@ from PIL import Image
 
 def choose_transform(datasets_name):
     data_transform = {transforms.ToTensor()}
-    if datasets_name == "Fruit100":
+    if datasets_name == "Fruit360":
         data_transform = {
             "train": transforms.Compose([
                 transforms.ToTensor(),
