@@ -1,5 +1,8 @@
 # UnetFormer-a-simple-classifier
 
+
+unetformer.png
+
 首先下载数据集：
 Friut100，Flower
 https://www.kaggle.com/datasets/moltean/fruits
