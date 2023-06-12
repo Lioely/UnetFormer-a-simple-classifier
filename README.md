@@ -8,7 +8,7 @@
 Friut100，Flower
 https://www.kaggle.com/datasets/moltean/fruits
 https://www.kaggle.com/datasets/batoolabbas91/flower-photos-by-the-tensorflow-team
-分别放到Flower，Fruit文件夹里面，运行文件及里面的make_data_loader.py,生成数据的annotation
+分别放到data文件夹里面的Flower，Fruit文件夹里，运行data文件夹里面的make_data_loader.py,生成数据的annotation
 
 再安装必要的库
 ! pip install xformers
